@@ -21,7 +21,7 @@ def read_docx(file):
     return '\n'.join(content)
 
 def main():
-    st.title("Word and Token Counter")
+    st.title("Word and Token Counter - for GPT-4o")
     st.caption("by [Yedidya Harris](https://www.linkedin.com/in/yedidya-harris/)")
 
     uploaded_file = st.file_uploader("Upload a DOCX or TXT file", type=["docx", "txt"])
