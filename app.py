@@ -22,6 +22,7 @@ def read_docx(file):
 
 def main():
     st.title("Word and Token Counter")
+    st.caption("by [Yedidya Harris](https://www.linkedin.com/in/yedidya-harris/)")
 
     uploaded_file = st.file_uploader("Upload a DOCX or TXT file", type=["docx", "txt"])
     text_input = st.text_area("Or enter text here")
