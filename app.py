@@ -37,7 +37,7 @@ def main():
         content = ""
 
     if content:
-        encoding_name = "gpt2"  # Use the appropriate encoding name for your use case
+        encoding_name = "o200k_base"  # for gpt-4o
 
         num_tokens = num_tokens_from_string(content, encoding_name)
         num_words = count_words(content)
