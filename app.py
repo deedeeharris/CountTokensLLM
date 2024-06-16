@@ -43,8 +43,15 @@ def main():
         num_tokens = num_tokens_from_string(content, encoding_name)
         num_words = count_words(content)
 
-        st.write(f"Number of tokens: {num_tokens}")
-        st.write(f"Number of words: {num_words}")
+        st.markdown(f"""
+        ### Results
+        - **Number of tokens:** {num_tokens}
+        - **Number of words:** {num_words}
+        """)
 
+    st.write("---")
+    st.markdown("""
+    **Disclaimer:** The consequences of payments or usage should be at your own risk.
+    """)
 if __name__ == "__main__":
     main()
